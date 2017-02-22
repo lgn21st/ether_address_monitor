@@ -88,7 +88,7 @@ func main() {
 		return
 	}
 
-	err := sendNotification(common.CurrencyToString(etherInWei))
+	err = sendNotification(common.CurrencyToString(etherInWei))
 	if err != nil {
 		panic(err)
 	}
